@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.home {
+	background: linear-gradient(rgb(204 9 47), rgb(184, 21, 112));
+	color: rgb(255, 255, 255);
+	height: 100%;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+	margin: 5px 15px;
+}
+
+.topo {
+	
+	background: linear-gradient(to right, rgb(185, 3, 3), rgb(235, 70, 70));
+}
+
+.txt {
+	text-decoration-color: white;
+	text-decoration: none;
+	font-size: 100%;
+	font-weight: bold;
+	background-color: rgb(141, 180, 238);
+	border-width: 0ch;
+	box-shadow: 7px 5px 5px rgba(12, 12, 12, 0.77);
+}
+
+.display-4 {
+	font-size: 80px;
+	text-shadow: 6px 3px 4px rgba(41, 40, 40, 0.77);
+	
+}
+
+/*
+  Fontes
+*/
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Medium;
+	src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-Bold;
+	src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+	font-family: Poppins-SemiBold;
+	src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+
+  .construcao{
+	width: 400px;
+	height: 100px;
+	box-shadow: 7px 5px 5px rgba(12, 12, 12, 0.77);
+	background-color: rgb(30, 210, 201);
+	text-align: center;	
+	margin-left: 30%;
+	margin-top: 40px;
+  }
